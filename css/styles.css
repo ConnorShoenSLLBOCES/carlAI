@@ -1,0 +1,82 @@
+/* CSS Document */
+
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	color: #000;
+	background-color: #4E4B4B;
+	border-left: #A06622 solid 15px;
+	border-right: #A06622 solid 15px;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	
+}
+
+nav a:hover {
+	color: #1E5E93;
+	background-color: #B07A3B;
+}
+
+nav a {
+	text-decoration: none;
+	color: #B07A3B;
+	background-color: #1E5E93;
+}
+
+p {
+	color: #fff;
+	width: 80%;
+	display: block;
+	margin: 0 2%;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: block;
+	background-image: url("../images/crazyCarl.jpeg");
+	background-repeat: repeat;
+	background-size: cover;
+	height: 500px;
+}
+	
+nav {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	justify-content: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.1em;
+	padding: 1.5%;
+	justify-content: center;
+}
+	
+footer {
+	background-color: #050F38;
+}
+
+footer p {
+	color: #827510;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #050F38;
+}
